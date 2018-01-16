@@ -4,8 +4,6 @@
     max-width: 960px;
     margin: auto; 
     /* margin "auto" will automatically center my page */
-    
-
 }
 
 
@@ -52,12 +50,14 @@
     background-color: yellowgreen;
     width: 50%;
     height: 250px;
+    float: left;
 }
 
 #h8 {
     background-color: blue;
     width: 50%;
     height: 250px;
+    float: right;
 }
 
 /* .efgh240x250 section {
@@ -67,4 +67,35 @@
 
 #foot-section {
     background-color: rgb(12, 163, 163);
+    height: 80px;
+    float: left;
+    width: 100%
 }
+
+
+@media only screen and (min-width: 800px) {
+    #a480x75 {
+        height: 100px;
+    }
+   
+    #b480x150 {
+        float: left;
+        width: 200px;
+        height: 600px;
+    }
+
+    #c480x125 {
+        width: 380px;
+        height: 200px;
+        float: left;
+    }
+
+    #d480x125 {
+        width: 380px;
+        height: 200px;
+        float: right;
+    }
+
+
+}
+    
