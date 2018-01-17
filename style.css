@@ -96,6 +96,37 @@
         float: right;
     }
 
+    #e5 {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
 
+
+    #f6 {
+        width: 190px;
+        height: 250px;
+        float: left;
+
+    }
+
+    #g7 {
+        width: 190px;
+        height: 250px;
+        float: left;
+    }
+
+    #h8 {
+        width: 190px;
+        height: 250px;
+        float: left;
+
+    }
+
+    #foot-section {
+        width: 760px;
+        height: 150px;
+        float: left;
+    }
 }
     
